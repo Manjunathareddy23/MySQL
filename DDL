@@ -1,3 +1,5 @@
+CREATE Command
+
 create table Manju(
 name varchar[20],
 id int,
@@ -14,3 +16,14 @@ values(reddy,101,593,atp),
 
 
 select * from Manju;
+
+ALTER Command
+Add a Column..........
+
+ALTER TABLE Manju
+ADD Email VARCHAR(100);
+
+Modify a Column......
+ALTER TABLE Students
+MODIFY COLUMN Age TINYINT;
+
