@@ -1,0 +1,17 @@
+A database is a digital system designed for the storage and arrangement of data
+MySQL is an open-source relational database management system (RDBMS) that uses Structured Query Language (SQL) to manage data
+
+MySQL works like this:
+
+Client Request: You send a request to the MySQL server using an application or a command-line tool.
+Connection: The server connects with your application to start a session.
+SQL Parsing: The server checks your SQL query for any errors.
+Query Optimization: The server figures out the best way to execute your query efficiently.
+Execution: The server runs the query. It reads or writes data to the database as needed.
+Storage Engine: This is where data is stored on the disk. MySQL uses different storage engines like InnoDB or MyISAM for this.
+Result Generation: The server creates the result based on your query.
+Response: The server sends the results back to your application.
+Client Interaction: Your application displays the data to you.
+Transaction Management: For complex operations, MySQL ensures everything runs smoothly and data remains accurate.
+Logging and Recovery: MySQL keeps logs to help recover data if something goes wrong.
+Replication and Backup: MySQL can copy data to other servers for safety and better performance. It also supports data backups to keep your information safe.
