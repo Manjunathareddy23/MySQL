@@ -1,0 +1,16 @@
+create table Manju(
+name varchar[20],
+id int,
+marks int,
+address varchar[15]);
+
+
+inserting..
+insert into Manju(name,id,marks,address)
+values(reddy,101,593,atp),
+(kalpu,102,505,gooty),
+(akhila,103,563,kdp);
+
+
+
+select * from Manju;
